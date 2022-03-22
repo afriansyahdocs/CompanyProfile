@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#C3BCBC"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/prokesh" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/line1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="15dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/background">
+
+                        <ImageView
+                            android:id="@+id/gbprofil"
+                            android:layout_width="150dp"
+                            android:layout_height="140dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="30dp"
+                            android:src="@drawable/profil" />
+
+                        <TextView
+                            android:id="@+id/profil"
+                            android:layout_width="64dp"
+                            android:layout_height="23dp"
+                            android:layout_alignLeft="@id/gbprofil"
+                            android:layout_alignTop="@id/gbprofil"
+                            android:layout_alignRight="@id/gbprofil"
+                            android:layout_alignBottom="@id/gbprofil"
+                            android:layout_marginTop="100dp"
+                            android:gravity="center"
+                            android:text="PROFIL SEKOLAH"
+                            android:textColor="#000000" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/background">
+
+                        <ImageView
+                            android:id="@+id/gbekskul"
+                            android:layout_width="150dp"
+                            android:layout_height="140dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="30dp"
+                            android:src="@drawable/ekskul" />
+
+                        <TextView
+                            android:id="@+id/ekskul"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:layout_alignLeft="@id/gbekskul"
+                            android:layout_alignTop="@id/gbekskul"
+                            android:layout_alignRight="@id/gbekskul"
+                            android:layout_alignBottom="@id/gbekskul"
+                            android:layout_marginTop="100dp"
+                            android:gravity="center"
+                            android:text="EKSKUL"
+                            android:textColor="#000000" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/background">
+
+                        <ImageView
+                            android:id="@+id/gbvisi"
+                            android:layout_width="150dp"
+                            android:layout_height="140dp"
+                            android:adjustViewBounds="true"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="30dp"
+                            android:src="@drawable/visi" />
+
+                        <TextView
+                            android:id="@+id/visimisi"
+                            android:layout_width="64dp"
+                            android:layout_height="23dp"
+                            android:layout_alignLeft="@id/gbvisi"
+                            android:layout_alignTop="@id/gbvisi"
+                            android:layout_alignRight="@id/gbvisi"
+                            android:layout_alignBottom="@id/gbvisi"
+                            android:layout_marginTop="100dp"
+                            android:gravity="center"
+                            android:text="VISI DAN MISI"
+                            android:textColor="#000000" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/line2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/line1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/background">
+
+                        <ImageView
+                            android:id="@+id/gbgurustaf"
+                            android:layout_width="150dp"
+                            android:layout_height="140dp"
+                            android:paddingTop="13dp"
+                            android:paddingBottom="30dp"
+                            android:src="@drawable/gurustaf" />
+
+                        <TextView
+                            android:id="@+id/gurustaf"
+                            android:layout_width="64dp"
+                            android:layout_height="23dp"
+                            android:layout_alignLeft="@id/gbgurustaf"
+                            android:layout_alignTop="@id/gbgurustaf"
+                            android:layout_alignRight="@id/gbgurustaf"
+                            android:layout_alignBottom="@id/gbgurustaf"
+                            android:layout_marginTop="100dp"
+                            android:gravity="center"
+                            android:text="GURU DAN STAF"
+                            android:textColor="#000000" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/background">
+
+                        <ImageView
+                            android:id="@+id/gbfasilitas"
+                            android:layout_width="150dp"
+                            android:layout_height="140dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="30dp"
+                            android:src="@drawable/fasilitas" />
+
+                        <TextView
+                            android:id="@+id/fasilitas"
+                            android:layout_width="64dp"
+                            android:layout_height="23dp"
+                            android:layout_alignLeft="@id/gbfasilitas"
+                            android:layout_alignTop="@id/gbfasilitas"
+                            android:layout_alignRight="@id/gbfasilitas"
+                            android:layout_alignBottom="@id/gbfasilitas"
+                            android:layout_marginTop="100dp"
+                            android:gravity="center"
+                            android:text="FASILITAS"
+                            android:textColor="#000000" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/background">
+
+                        <ImageView
+                            android:id="@+id/gbgaleri"
+                            android:layout_width="150dp"
+                            android:layout_height="140dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="30dp"
+                            android:src="@drawable/galeri" />
+
+                        <TextView
+                            android:id="@+id/galeri"
+                            android:layout_width="64dp"
+                            android:layout_height="23dp"
+                            android:layout_alignLeft="@id/gbgaleri"
+                            android:layout_alignTop="@id/gbgaleri"
+                            android:layout_alignRight="@id/gbgaleri"
+                            android:layout_alignBottom="@id/gbgaleri"
+                            android:layout_marginTop="100dp"
+                            android:gravity="center"
+                            android:text="GALERI"
+                            android:textColor="#000000" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
