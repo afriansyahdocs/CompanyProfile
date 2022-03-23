@@ -46,6 +46,7 @@
                             android:id="@+id/gbprofil"
                             android:layout_width="150dp"
                             android:layout_height="140dp"
+                            android:onClick="profileclick"
                             android:paddingTop="10dp"
                             android:paddingBottom="30dp"
                             android:src="@drawable/profil" />
@@ -74,6 +75,7 @@
                             android:id="@+id/gbekskul"
                             android:layout_width="150dp"
                             android:layout_height="140dp"
+                            android:onClick="ekskulclick"
                             android:paddingTop="10dp"
                             android:paddingBottom="30dp"
                             android:src="@drawable/ekskul" />
@@ -102,6 +104,7 @@
                             android:id="@+id/gbvisi"
                             android:layout_width="150dp"
                             android:layout_height="140dp"
+                            android:onClick="prestasiclick"
                             android:adjustViewBounds="true"
                             android:paddingTop="10dp"
                             android:paddingBottom="30dp"
@@ -117,7 +120,7 @@
                             android:layout_alignBottom="@id/gbvisi"
                             android:layout_marginTop="100dp"
                             android:gravity="center"
-                            android:text="VISI DAN MISI"
+                            android:text="PRESTASI"
                             android:textColor="#000000" />
                     </RelativeLayout>
                 </LinearLayout>
@@ -140,6 +143,7 @@
                             android:id="@+id/gbgurustaf"
                             android:layout_width="150dp"
                             android:layout_height="140dp"
+                            android:onClick="guruclick"
                             android:paddingTop="13dp"
                             android:paddingBottom="30dp"
                             android:src="@drawable/gurustaf" />
@@ -168,6 +172,7 @@
                             android:id="@+id/gbfasilitas"
                             android:layout_width="150dp"
                             android:layout_height="140dp"
+                            android:onClick="fasilitasclick"
                             android:paddingTop="10dp"
                             android:paddingBottom="30dp"
                             android:src="@drawable/fasilitas" />
@@ -196,6 +201,7 @@
                             android:id="@+id/gbgaleri"
                             android:layout_width="150dp"
                             android:layout_height="140dp"
+                            android:onClick="galericlick"
                             android:paddingTop="10dp"
                             android:paddingBottom="30dp"
                             android:src="@drawable/galeri" />
@@ -215,6 +221,6 @@
                     </RelativeLayout>
                 </LinearLayout>
             </RelativeLayout>
-    </LinearLayout>
+        </LinearLayout>
     </ScrollView>
 </RelativeLayout>

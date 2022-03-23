@@ -19,16 +19,17 @@
 
             <ImageView
                 android:layout_width="150dp"
-                android:layout_height="100dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="25dp"
-                android:background="@color/black" />
+                android:src="@drawable/osis" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="AFRIANSYAH"
+                android:text="ORGANISASI OSIS"
+                android:textSize="15dp"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -41,16 +42,17 @@
 
             <ImageView
                 android:layout_width="150dp"
-                android:layout_height="100dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="25dp"
-                android:background="@color/black" />
+                android:src="@drawable/pramuka" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="AFRIANSYAH"
+                android:text="ORGANISASI PRAMUKA"
+                android:textSize="15dp"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -63,16 +65,17 @@
 
             <ImageView
                 android:layout_width="150dp"
-                android:layout_height="100dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="25dp"
-                android:background="@color/black" />
+                android:src="@drawable/pmr" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="AFRIANSYAH"
+                android:text="ORGANISASI PMR"
+                android:textSize="15dp"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -85,16 +88,17 @@
 
             <ImageView
                 android:layout_width="150dp"
-                android:layout_height="100dp"
+                android:layout_height="110dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="25dp"
-                android:background="@color/black" />
+                android:src="@drawable/tari" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="AFRIANSYAH"
+                android:text="KARAWITAN DAN TARI"
+                android:textSize="15dp"
                 android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>

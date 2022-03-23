@@ -12,89 +12,89 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="150dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
             android:background="@drawable/latarbelakang">
 
             <ImageView
                 android:layout_width="150dp"
-                android:layout_height="110dp"
+                android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="25dp"
-                android:src="@drawable/perpus" />
+                android:background="@color/black" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="@string/perpus"
+                android:text="AFRIANSYAH"
                 android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="150dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
             android:background="@drawable/latarbelakang">
 
             <ImageView
                 android:layout_width="150dp"
-                android:layout_height="110dp"
+                android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="25dp"
-                android:src="@drawable/laboratorium" />
+                android:background="@color/black" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="@string/lab"
+                android:text="AFRIANSYAH"
                 android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="150dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
             android:background="@drawable/latarbelakang">
 
             <ImageView
                 android:layout_width="150dp"
-                android:layout_height="110dp"
+                android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="25dp"
-                android:src="@drawable/labkom" />
+                android:background="@color/black" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="@string/labkom"
+                android:text="AFRIANSYAH"
                 android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="150dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
             android:background="@drawable/latarbelakang">
 
             <ImageView
                 android:layout_width="150dp"
-                android:layout_height="110dp"
+                android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="25dp"
-                android:src="@drawable/masjid" />
+                android:background="@color/black" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="@string/masjid"
+                android:text="AFRIANSYAH"
                 android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>

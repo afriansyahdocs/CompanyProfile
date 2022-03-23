@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CompanyProfile</string>
+    <string name="perpus">Fasilitas yang ada di ruang Perpustakaan berupa Buku-buku, petugas, kursi, meja, ac dan fotocopy center</string>
+    <string name="lab">Laboratorium memiliki fasilitas yang lengkap dan memenuhi standar, siswa dapat memanfaatkan fasilitas untuk melakukan penelitian</string>
+    <string name="labkom">Lab Komputer berfungsi sebagai sarana siswa untuk mengembangkan bakatnya di bidang IT</string>
+    <string name="masjid">SMPN 01 Matesih menunjang fasilitas masjid untuk melakukan kegiatan keagamaan</string>
 </resources>
