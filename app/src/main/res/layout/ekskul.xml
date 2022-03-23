@@ -30,6 +30,7 @@
                 android:gravity="center"
                 android:text="ORGANISASI OSIS"
                 android:textSize="15dp"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -51,9 +52,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:text="ORGANISASI PRAMUKA"
+                android:text="ORGANISASI OSIS"
                 android:textSize="15dp"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -76,6 +79,7 @@
                 android:gravity="center"
                 android:text="ORGANISASI PMR"
                 android:textSize="15dp"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -99,6 +103,88 @@
                 android:gravity="center"
                 android:text="KARAWITAN DAN TARI"
                 android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/latarbelakang">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="25dp"
+                android:src="@drawable/voli" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="BOLA VOLLY"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="ORGANISASI PRAMUKA"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/latarbelakang">
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="25dp"
+                android:src="@drawable/futsal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="FUTSAL"
+                android:textSize="15dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/latarbelakang">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="25dp"
+                android:src="@drawable/silat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="PENCAK SILAT"
+                android:textSize="15dp"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>

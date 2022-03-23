@@ -44,8 +44,8 @@
 
                         <ImageView
                             android:id="@+id/gbprofil"
-                            android:layout_width="150dp"
-                            android:layout_height="140dp"
+                            android:layout_width="155dp"
+                            android:layout_height="150dp"
                             android:onClick="profileclick"
                             android:paddingTop="10dp"
                             android:paddingBottom="30dp"
@@ -59,7 +59,7 @@
                             android:layout_alignTop="@id/gbprofil"
                             android:layout_alignRight="@id/gbprofil"
                             android:layout_alignBottom="@id/gbprofil"
-                            android:layout_marginTop="100dp"
+                            android:layout_marginTop="115dp"
                             android:gravity="center"
                             android:text="PROFIL SEKOLAH"
                             android:textColor="#000000" />
@@ -73,8 +73,8 @@
 
                         <ImageView
                             android:id="@+id/gbekskul"
-                            android:layout_width="150dp"
-                            android:layout_height="140dp"
+                            android:layout_width="155dp"
+                            android:layout_height="150dp"
                             android:onClick="ekskulclick"
                             android:paddingTop="10dp"
                             android:paddingBottom="30dp"
@@ -88,7 +88,7 @@
                             android:layout_alignTop="@id/gbekskul"
                             android:layout_alignRight="@id/gbekskul"
                             android:layout_alignBottom="@id/gbekskul"
-                            android:layout_marginTop="100dp"
+                            android:layout_marginTop="115dp"
                             android:gravity="center"
                             android:text="EKSKUL"
                             android:textColor="#000000" />
@@ -102,8 +102,8 @@
 
                         <ImageView
                             android:id="@+id/gbvisi"
-                            android:layout_width="150dp"
-                            android:layout_height="140dp"
+                            android:layout_width="155dp"
+                            android:layout_height="150dp"
                             android:onClick="prestasiclick"
                             android:adjustViewBounds="true"
                             android:paddingTop="10dp"
@@ -118,7 +118,7 @@
                             android:layout_alignTop="@id/gbvisi"
                             android:layout_alignRight="@id/gbvisi"
                             android:layout_alignBottom="@id/gbvisi"
-                            android:layout_marginTop="100dp"
+                            android:layout_marginTop="115dp"
                             android:gravity="center"
                             android:text="PRESTASI"
                             android:textColor="#000000" />
@@ -141,8 +141,8 @@
 
                         <ImageView
                             android:id="@+id/gbgurustaf"
-                            android:layout_width="150dp"
-                            android:layout_height="140dp"
+                            android:layout_width="155dp"
+                            android:layout_height="150dp"
                             android:onClick="guruclick"
                             android:paddingTop="13dp"
                             android:paddingBottom="30dp"
@@ -156,7 +156,7 @@
                             android:layout_alignTop="@id/gbgurustaf"
                             android:layout_alignRight="@id/gbgurustaf"
                             android:layout_alignBottom="@id/gbgurustaf"
-                            android:layout_marginTop="100dp"
+                            android:layout_marginTop="115dp"
                             android:gravity="center"
                             android:text="GURU DAN STAF"
                             android:textColor="#000000" />
@@ -170,8 +170,8 @@
 
                         <ImageView
                             android:id="@+id/gbfasilitas"
-                            android:layout_width="150dp"
-                            android:layout_height="140dp"
+                            android:layout_width="155dp"
+                            android:layout_height="150dp"
                             android:onClick="fasilitasclick"
                             android:paddingTop="10dp"
                             android:paddingBottom="30dp"
@@ -185,7 +185,7 @@
                             android:layout_alignTop="@id/gbfasilitas"
                             android:layout_alignRight="@id/gbfasilitas"
                             android:layout_alignBottom="@id/gbfasilitas"
-                            android:layout_marginTop="100dp"
+                            android:layout_marginTop="115dp"
                             android:gravity="center"
                             android:text="FASILITAS"
                             android:textColor="#000000" />
@@ -199,8 +199,8 @@
 
                         <ImageView
                             android:id="@+id/gbgaleri"
-                            android:layout_width="150dp"
-                            android:layout_height="140dp"
+                            android:layout_width="155dp"
+                            android:layout_height="150dp"
                             android:onClick="galericlick"
                             android:paddingTop="10dp"
                             android:paddingBottom="30dp"
@@ -214,7 +214,7 @@
                             android:layout_alignTop="@id/gbgaleri"
                             android:layout_alignRight="@id/gbgaleri"
                             android:layout_alignBottom="@id/gbgaleri"
-                            android:layout_marginTop="100dp"
+                            android:layout_marginTop="115dp"
                             android:gravity="center"
                             android:text="GALERI"
                             android:textColor="#000000" />

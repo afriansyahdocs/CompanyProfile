@@ -12,15 +12,16 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="230dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
             android:background="@drawable/latarbelakang">
 
             <ImageView
                 android:layout_width="150dp"
-                android:layout_height="110dp"
+                android:layout_height="145dp"
                 android:layout_gravity="center"
+                android:scaleType="fitXY"
                 android:layout_marginStart="25dp"
                 android:src="@drawable/perpus" />
 
@@ -28,20 +29,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:textColor="@color/black"
                 android:text="@string/perpus"
+                android:textSize="15sp"
                 android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="230dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
             android:background="@drawable/latarbelakang">
 
             <ImageView
                 android:layout_width="150dp"
-                android:layout_height="110dp"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
                 android:layout_gravity="center"
                 android:layout_marginStart="25dp"
                 android:src="@drawable/laboratorium" />
@@ -50,21 +54,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:textColor="@color/black"
                 android:text="@string/lab"
+                android:textSize="15sp"
                 android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="230dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
             android:background="@drawable/latarbelakang">
 
             <ImageView
                 android:layout_width="150dp"
-                android:layout_height="110dp"
+                android:layout_height="150dp"
                 android:layout_gravity="center"
+                android:scaleType="fitXY"
                 android:layout_marginStart="25dp"
                 android:src="@drawable/labkom" />
 
@@ -72,21 +79,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:textColor="@color/black"
                 android:text="@string/labkom"
+                android:textSize="15sp"
                 android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="230dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
             android:background="@drawable/latarbelakang">
 
             <ImageView
                 android:layout_width="150dp"
-                android:layout_height="110dp"
+                android:layout_height="150dp"
                 android:layout_gravity="center"
+                android:scaleType="fitXY"
                 android:layout_marginStart="25dp"
                 android:src="@drawable/masjid" />
 
@@ -94,7 +104,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:textColor="@color/black"
                 android:text="@string/masjid"
+                android:textSize="15sp"
                 android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>
