@@ -28,6 +28,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
                 android:text="AFRIANSYAH"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -49,6 +51,8 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="15sp"
                 android:gravity="center"
                 android:text="AFRIANSYAH"
                 android:textStyle="bold" />
@@ -72,6 +76,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
                 android:text="AFRIANSYAH"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -94,6 +100,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
                 android:text="AFRIANSYAH"
                 android:textStyle="bold" />
         </LinearLayout>

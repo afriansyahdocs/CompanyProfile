@@ -1,7 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">CompanyProfile</string>
     <string name="perpus">Fasilitas yang ada di ruang Perpustakaan berupa Buku-buku, petugas, kursi, meja, ac dan fotocopy center</string>
     <string name="lab">Laboratorium memiliki fasilitas yang lengkap dan memenuhi standar, siswa dapat memanfaatkan fasilitas untuk melakukan penelitian</string>
     <string name="labkom">Lab Komputer berfungsi sebagai sarana siswa untuk mengembangkan bakatnya di bidang IT</string>
     <string name="masjid">SMPN 01 Matesih menunjang fasilitas masjid untuk melakukan kegiatan keagamaan</string>
+    <string name="profil">SMP NEGERI 01 MATESIH</string>
+    <string name="sejarah">SMP Negeri 1 Matesih atau dikenal dengan nama ESSAMA didirikan pada tanggal 1 Agustus 1962 oleh Menteri Pendidikan Dasar dan Kebudayaan dengan nomor : 1123 / B 3 / Kedj Tanggal 2 Novermber 1962 atas usulan musyawarah desa matesih yang di kuatkan oleh kepala UPT Matesih tanggal 12 Juli 1962 No. A.213/11/2089 tentang usulan pembukaan sekolah menengah ekonomi tingkat pertama (SMEP) Negeri di Matesih. SMP Negeri 1 Matesih tepatnya beralamat di Jl. Matesih – Tawangmangu No.1 Kode Pos 57781 No. Telp 0271.662681</string>
+    <string name="jarah">Kemudian Integrasi dari SMEP Negeri Matesih menjadi SMP Negeri Matesih dengan keputusan menteri P dan K. RI</string>
+    <string name="no">-No : 18306 / c /2 / 1979</string>
+    <string name="nom">-Tanggal : 20 Maret 1979, per 1 April 1979 sampai sekarang.</string>
+    <string name="alamat">ALAMAT : JALAN MATESIH-TAWANGMANGU NO.01 MOYORETNO RT 02 / 07 \n RT / RW : 02 / 06 \n DUSUN : Babrik \n DESA / KELURAHAN : Matesih \n KECAMATAN : Matesih \n KABUPATEN : Karanganyar \n PROVINSI : Jawa Tengah \n KODE POS : 57781</string>
+    <string name="visi">Terwujudnya Peserta Didik Yang Unggul Dalam Prestasi Berlandaskan Iman Dan Takwa Serta Berwawasan Lingkungan.</string>
+    <string name="misi">01. Meningkatkan prestasi akademik dan non akademik \n 02. Menumbuhkan semangat keberhasilan dan gemar membaca \n 3. Memfasilitasi kegiatan ekstrakurikuler dalam mengembangkan bakat siswa. \n 4. Meningkatnya profesionalisme tenaga pendidik dan tenaga kependidikan \n 5. Melaksanakan proses pembelajaran dan bimbingan konseling yang efektif, efisien dan menyenangkan \n 6. Melaksanakan pengembangan sarana dan prasarana pendidikan yang mutakhir \n 7. Meningkatkan Standar Kelulusan \n 8. Menanamkan karakter religius melalui pembiasaan \n 9. Mewujudkan manajemen sekolah yang tangguh \n 10. Meningkatkan kualitas keimanan dan ketaqwaan warga sekolah \n 11. Mengupayakan pembiasaan memelihara dan melestarikan lingkungan hidup. \n 12. Mempertebal rasa kecintaan terhadap lingkungan kepada setiap warga sekolah. \n 13. Membiasakan warga sekolah melaksanakan tindakan yang mengarah pada kelestarian fungsi lingkungan. \n 14. Menanamkan sikap dan tindakan kepada warga sekolah untuk mencegah pencemaran lingkungan. \n 15. Membentuk karakter warga sekolah agar sadar dan peduli terhadap upaya-upaya pencegahan kerusakan lingkungan \n 16. Membudayakan kebersihan dan kenyamanan lingkungan. \n 17. Membina hubungan baik dengan komite sekolah dan masyarakat sekitar.</string>
 </resources>

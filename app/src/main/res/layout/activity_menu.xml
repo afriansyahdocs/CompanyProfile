@@ -13,5 +13,5 @@
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/sd" />
+        android:src="@drawable/smp" />
 </RelativeLayout>
