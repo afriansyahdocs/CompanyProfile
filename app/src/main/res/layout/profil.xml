@@ -41,6 +41,7 @@
         android:layout_marginTop="10dp"
         android:textSize="20dp"
         android:textColor="@color/black"
+        android:paddingStart="10dp"
         android:textStyle="bold"
         android:text="Sejarah Pengembangan" />
 
@@ -51,6 +52,7 @@
         android:layout_gravity="center_horizontal"
         android:textSize="15sp"
         android:textColor="@color/black"
+        android:paddingStart="5dp"
         android:text="@string/sejarah" />
 
     <TextView
@@ -60,6 +62,7 @@
         android:layout_gravity="left"
         android:textSize="15sp"
         android:textColor="@color/black"
+        android:paddingStart="5dp"
         android:text="@string/jarah" />
 
     <TextView
@@ -69,6 +72,7 @@
         android:layout_gravity="left"
         android:textSize="15sp"
         android:textColor="@color/black"
+        android:paddingStart="5dp"
         android:text="@string/no" />
 
     <TextView
@@ -78,6 +82,7 @@
         android:layout_gravity="left"
         android:textSize="15sp"
         android:textColor="@color/black"
+        android:paddingStart="5dp"
         android:text="@string/nom" />
 
     <TextView
@@ -88,6 +93,7 @@
         android:textSize="20sp"
         android:textColor="@color/black"
         android:textStyle="bold"
+        android:paddingStart="10dp"
         android:text="Identitas Sekolah" />
 
     <TextView
@@ -97,6 +103,7 @@
         android:layout_gravity="left"
         android:textSize="15sp"
         android:textColor="@color/black"
+        android:paddingStart="5dp"
         android:text="@string/alamat" />
 
     <TextView
@@ -117,6 +124,7 @@
         android:layout_gravity="left"
         android:textSize="15sp"
         android:textColor="@color/black"
+        android:paddingStart="5dp"
         android:text="@string/visi" />
 
     <TextView
@@ -137,6 +145,7 @@
         android:layout_gravity="left"
         android:textSize="15sp"
         android:textColor="@color/black"
+        android:paddingStart="5dp"
         android:text="@string/misi" />
 </LinearLayout>
 </ScrollView>

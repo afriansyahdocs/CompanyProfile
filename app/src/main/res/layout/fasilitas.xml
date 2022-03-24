@@ -12,24 +12,24 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="220dp"
-            android:orientation="horizontal"
+            android:layout_height="230dp"
+            android:orientation="vertical"
             android:layout_marginBottom="25dp"
             android:background="@drawable/latarbelakang">
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="145dp"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
                 android:layout_gravity="center"
                 android:scaleType="fitXY"
-                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
                 android:src="@drawable/perpus" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center"
-                android:textAlignment="textStart"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
                 android:textColor="@color/black"
                 android:text="@string/perpus"
                 android:textSize="15sp"
@@ -38,25 +38,25 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="220dp"
-            android:orientation="horizontal"
+            android:layout_height="230dp"
+            android:orientation="vertical"
             android:layout_marginBottom="25dp"
             android:background="@drawable/latarbelakang">
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
                 android:scaleType="fitXY"
                 android:layout_gravity="center"
-                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
                 android:src="@drawable/laboratorium" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center"
+                android:gravity="center_horizontal"
                 android:textColor="@color/black"
-                android:textAlignment="textStart"
+                android:textAlignment="center"
                 android:text="@string/lab"
                 android:textSize="15sp"
                 android:textStyle="bold" />
@@ -64,17 +64,17 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="220dp"
-            android:orientation="horizontal"
+            android:layout_height="230dp"
+            android:orientation="vertical"
             android:layout_marginBottom="25dp"
             android:background="@drawable/latarbelakang">
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
                 android:layout_gravity="center"
                 android:scaleType="fitXY"
-                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
                 android:src="@drawable/labkom" />
 
             <TextView
@@ -82,7 +82,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:textColor="@color/black"
-                android:textAlignment="textStart"
+                android:textAlignment="center"
                 android:text="@string/labkom"
                 android:textSize="15sp"
                 android:textStyle="bold" />
@@ -90,17 +90,17 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="220dp"
-            android:orientation="horizontal"
+            android:layout_height="230dp"
+            android:orientation="vertical"
             android:layout_marginBottom="25dp"
             android:background="@drawable/latarbelakang">
 
             <ImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_width="160dp"
+                android:layout_height="140dp"
                 android:layout_gravity="center"
                 android:scaleType="fitXY"
-                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
                 android:src="@drawable/masjid" />
 
             <TextView
@@ -108,7 +108,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:textColor="@color/black"
-                android:textAlignment="textStart"
+                android:textAlignment="center"
                 android:text="@string/masjid"
                 android:textSize="15sp"
                 android:textStyle="bold" />
