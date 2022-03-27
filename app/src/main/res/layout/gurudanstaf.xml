@@ -58,6 +58,7 @@
                     android:textColor="#238101"/>
             </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="175dp"
@@ -106,6 +107,7 @@
                     android:textColor="#238101"/>
             </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="175dp"
@@ -154,6 +156,7 @@
                     android:textColor="#238101"/>
             </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="175dp"
@@ -202,6 +205,7 @@
                     android:textColor="#238101"/>
             </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="175dp"
@@ -250,6 +254,7 @@
                     android:textColor="#238101"/>
             </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="175dp"
@@ -298,6 +303,7 @@
                     android:textColor="#238101"/>
             </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="175dp"
@@ -346,6 +352,7 @@
                     android:textColor="#238101"/>
             </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="175dp"
@@ -394,6 +401,7 @@
                     android:textColor="#238101"/>
             </LinearLayout>
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="175dp"
@@ -442,6 +450,56 @@
                     android:textColor="#238101"/>
             </LinearLayout>
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/groundback">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/fotoku"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Afriansyah Septyarno"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="45dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pelajar"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#005EFF"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7738"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#850202"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pemrograman Dasar"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#238101"/>
+            </LinearLayout>
+        </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="175dp"
