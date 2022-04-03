@@ -2,6 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     android:fillViewport="true">
 
     <LinearLayout
@@ -22,7 +23,7 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="25dp"
-                android:background="@color/black" />
+                android:src="@drawable/kgupacara" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -30,7 +31,7 @@
                 android:gravity="center"
                 android:textColor="@color/black"
                 android:textSize="15sp"
-                android:text="AFRIANSYAH"
+                android:text="Kegiatan Upacara Bendera"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -46,7 +47,7 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="25dp"
-                android:background="@color/black" />
+                android:src="@drawable/kgpramuka" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -54,7 +55,7 @@
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:gravity="center"
-                android:text="AFRIANSYAH"
+                android:text="Kegiatan Pramuka"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -70,7 +71,7 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="25dp"
-                android:background="@color/black" />
+                android:src="@drawable/kgngaji" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -78,7 +79,7 @@
                 android:gravity="center"
                 android:textColor="@color/black"
                 android:textSize="15sp"
-                android:text="AFRIANSYAH"
+                android:text="Kegiatan Pengajian Rutin"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -94,7 +95,7 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="25dp"
-                android:background="@color/black" />
+                android:src="@drawable/kglomba1" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -102,7 +103,31 @@
                 android:gravity="center"
                 android:textColor="@color/black"
                 android:textSize="15sp"
-                android:text="AFRIANSYAH"
+                android:text="Lomba Hari Kemerdekaan"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/latarbelakang">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="25dp"
+                android:src="@drawable/kglomba" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:text="Lomba Hari Kemerdekaan"
                 android:textStyle="bold" />
         </LinearLayout>
     </LinearLayout>

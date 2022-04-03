@@ -15,7 +15,7 @@
             android:layout_height="175dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/groundback">
+            android:background="@drawable/latarbelakang">
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="125dp"
@@ -64,7 +64,7 @@
             android:layout_height="175dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/groundback">
+            android:background="@drawable/latarbelakang">
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="125dp"
@@ -113,7 +113,7 @@
             android:layout_height="175dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/groundback">
+            android:background="@drawable/latarbelakang">
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="125dp"
@@ -162,7 +162,7 @@
             android:layout_height="175dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/groundback">
+            android:background="@drawable/latarbelakang">
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="125dp"
@@ -211,7 +211,7 @@
             android:layout_height="175dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/groundback">
+            android:background="@drawable/latarbelakang">
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="125dp"
@@ -260,7 +260,7 @@
             android:layout_height="175dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/groundback">
+            android:background="@drawable/latarbelakang">
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="125dp"
@@ -309,7 +309,7 @@
             android:layout_height="175dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/groundback">
+            android:background="@drawable/latarbelakang">
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="125dp"
@@ -358,7 +358,7 @@
             android:layout_height="175dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/groundback">
+            android:background="@drawable/latarbelakang">
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="125dp"
@@ -407,7 +407,7 @@
             android:layout_height="175dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/groundback">
+            android:background="@drawable/latarbelakang">
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="125dp"
@@ -456,7 +456,7 @@
             android:layout_height="175dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/groundback">
+            android:background="@drawable/latarbelakang">
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="125dp"
@@ -505,7 +505,7 @@
             android:layout_height="175dp"
             android:orientation="horizontal"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/groundback">
+            android:background="@drawable/latarbelakang">
             <ImageView
                 android:layout_width="100dp"
                 android:layout_height="125dp"

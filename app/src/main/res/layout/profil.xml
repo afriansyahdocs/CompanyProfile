@@ -27,7 +27,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="20dp"
         android:gravity="center_horizontal"
         android:textSize="25sp"
         android:layout_gravity="center"
@@ -42,27 +42,33 @@
         android:textSize="20dp"
         android:textColor="@color/black"
         android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="5dp"
         android:textStyle="bold"
         android:text="Sejarah Pengembangan" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:layout_gravity="center_horizontal"
         android:textSize="15sp"
         android:textColor="@color/black"
-        android:paddingStart="5dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="5dp"
         android:text="@string/sejarah" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:layout_gravity="left"
         android:textSize="15sp"
         android:textColor="@color/black"
-        android:paddingStart="5dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="5dp"
         android:text="@string/jarah" />
 
     <TextView
@@ -72,7 +78,9 @@
         android:layout_gravity="left"
         android:textSize="15sp"
         android:textColor="@color/black"
-        android:paddingStart="5dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="5dp"
         android:text="@string/no" />
 
     <TextView
@@ -82,7 +90,9 @@
         android:layout_gravity="left"
         android:textSize="15sp"
         android:textColor="@color/black"
-        android:paddingStart="5dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="5dp"
         android:text="@string/nom" />
 
     <TextView
@@ -90,7 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_gravity="left"
-        android:textSize="20sp"
+        android:textSize="20dp"
         android:textColor="@color/black"
         android:textStyle="bold"
         android:paddingStart="10dp"
@@ -103,16 +113,18 @@
         android:layout_gravity="left"
         android:textSize="15sp"
         android:textColor="@color/black"
-        android:paddingStart="5dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="5dp"
         android:text="@string/alamat" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
-        android:textSize="20sp"
+        android:textSize="20dp"
         android:textColor="@color/black"
         android:textStyle="bold"
         android:text="VISI" />
@@ -124,7 +136,9 @@
         android:layout_gravity="left"
         android:textSize="15sp"
         android:textColor="@color/black"
-        android:paddingStart="5dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="5dp"
         android:text="@string/visi" />
 
     <TextView
@@ -133,7 +147,7 @@
         android:layout_marginTop="10dp"
         android:layout_gravity="center_horizontal"
         android:gravity="center"
-        android:textSize="20sp"
+        android:textSize="20dp"
         android:textColor="@color/black"
         android:textStyle="bold"
         android:text="MISI" />
@@ -145,7 +159,9 @@
         android:layout_gravity="left"
         android:textSize="15sp"
         android:textColor="@color/black"
-        android:paddingStart="5dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="5dp"
         android:text="@string/misi" />
 </LinearLayout>
 </ScrollView>
