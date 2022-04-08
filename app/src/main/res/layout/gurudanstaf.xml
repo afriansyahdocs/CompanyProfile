@@ -22,7 +22,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/nardi"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -30,7 +30,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nardi S.Pd, M.Pd"
+                    android:text="Nardi, S.Pd, M.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -64,7 +64,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/adhesuryani"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -72,7 +72,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Adhe Suryani S.Pd"
+                    android:text="Adhe Suryani, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -113,7 +113,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/agus"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -121,7 +121,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Agus Setiawan S.Pd"
+                    android:text="Agus Setiawan, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -137,7 +137,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="PPKN"
+                    android:text="PAI DAN PPKN"
                     android:layout_gravity="center"
                     android:textStyle="bold"
                     android:textColor="#238101"/>
@@ -155,7 +155,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/ani"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -186,7 +186,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Konselor"
+                    android:text="Konselor (BP/BK)"
                     android:layout_gravity="center"
                     android:textStyle="bold"
                     android:textColor="#238101"/>
@@ -204,7 +204,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/anita"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -212,7 +212,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Anita Cipta Wardani S.Pd"
+                    android:text="Anita Cipta Wardani, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -246,7 +246,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/ariss"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -254,7 +254,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Aris Suparsito S.Pd, MP.d"
+                    android:text="Aris Suparsito, S.Pd, MP.d"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -295,7 +295,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/dony"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -303,49 +303,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Atik Sulistyowati"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="45dp"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Tenaga Adminitrasi Sekolah"
-                    android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:textColor="#005EFF"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="NIP. 197905252008012019"
-                    android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:textColor="#850202"/>
-            </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="175dp"
-            android:orientation="horizontal"
-            android:layout_marginBottom="25dp"
-            android:background="@drawable/latarbelakang">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Dony Rochmad Kurniawan S.Psi"
+                    android:text="Dony Rochmad Kurniawan, S.Psi"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -361,7 +319,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Bimbingan Konseling"
+                    android:text="Konselor (BP/BK)"
                     android:layout_gravity="center"
                     android:textStyle="bold"
                     android:textColor="#238101"/>
@@ -379,7 +337,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/giati"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -387,7 +345,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Giati S.Pd"
+                    android:text="Giati, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -428,7 +386,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/graduated"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -436,7 +394,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Giyanto S.Pd M.Pd"
+                    android:text="Giyanto, S.Pd M.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -452,7 +410,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="7738"
+                    android:text="NIP. 196304161987031010"
                     android:layout_gravity="center"
                     android:textStyle="bold"
                     android:textColor="#850202"/>
@@ -477,7 +435,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/graduated"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -485,7 +443,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Harini Endang Sri Rahayu A.Ma.Pd, S.Pd"
+                    android:text="Harini Endang Sri Rahayu, A.Ma.Pd, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -501,10 +459,17 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="NIP. 196701221989022000"
+                    android:text="NIP. 196701221989022001"
                     android:layout_gravity="center"
                     android:textStyle="bold"
                     android:textColor="#850202"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Seni Dan Budaya"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#238101"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -519,7 +484,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/hariyadi"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -561,7 +526,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/hartati"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -569,7 +534,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hartanti S.Pd"
+                    android:text="Hartanti, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -610,7 +575,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/hapy"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -645,7 +610,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/heri"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -653,7 +618,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Heri Susanto Dipl.-Ing.,Dipl.-Ing.,S.Kom"
+                    android:text="Heri Susanto, S.Kom"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -662,17 +627,10 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tenaga Adminitrasi Sekolah"
+                    android:text="Operator Sekolah"
                     android:layout_gravity="center"
                     android:textStyle="bold"
                     android:textColor="#005EFF"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="TIK"
-                    android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:textColor="#238101"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -687,7 +645,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/hufron"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -695,7 +653,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Hufron S.Pd"
+                    android:text="Hufron, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -711,7 +669,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="NIP. 196207041983011000"
+                    android:text="NIP. 196207041983011003"
                     android:layout_gravity="center"
                     android:textStyle="bold"
                     android:textColor="#850202"/>
@@ -736,7 +694,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/indari"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -760,7 +718,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="NIP. 197702262008012000"
+                    android:text="NIP. 197702262008012007"
                     android:layout_gravity="center"
                     android:textStyle="bold"
                     android:textColor="#850202"/>
@@ -785,7 +743,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/jamaludin"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -793,42 +751,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Istianingrum Anggiyani S.Pd"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="45dp"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Guru Mapel"
-                    android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:textColor="#005EFF"/>
-            </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="175dp"
-            android:orientation="horizontal"
-            android:layout_marginBottom="25dp"
-            android:background="@drawable/latarbelakang">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Jamaludin S.Pd"
+                    android:text="Jamaludin, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -869,7 +792,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/jiman"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -877,7 +800,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Jiman S.Pd"
+                    android:text="Jiman, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -918,7 +841,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/joko"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -926,7 +849,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Joko Sugiyatno S.Pd"
+                    android:text="Joko Sugiyatno, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -967,7 +890,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/kamadi"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -975,7 +898,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Kamadi S.Pd"
+                    android:text="Kamadi, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -1016,7 +939,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/graduated"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1040,14 +963,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="NIP. 196401051987031000"
+                    android:text="NIP. 196401051987031014"
                     android:layout_gravity="center"
                     android:textStyle="bold"
                     android:textColor="#850202"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Seni Budaya"
+                    android:text="Seni dan Budaya"
                     android:layout_gravity="center"
                     android:textStyle="bold"
                     android:textColor="#238101"/>
@@ -1065,7 +988,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/graduated"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1073,7 +996,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Kristi Adi Purwaningsih S.Ag"
+                    android:text="Kristi Adi Purwaningsih, S.Ag"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -1093,6 +1016,13 @@
                     android:layout_gravity="center"
                     android:textStyle="bold"
                     android:textColor="#850202"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pendidikan Agama Kristen"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#238101"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -1107,7 +1037,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/larso"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1142,7 +1072,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/lely"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1150,7 +1080,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Lely Nuriyastuti S.Pd, S.Si"
+                    android:text="Lely Nuriyastuti, S.Pd, S.Si"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -1166,14 +1096,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="NIP. 196807032006042006"
-                    android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:textColor="#850202"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Ppkn"
+                    android:text="Ppkn dan Prakarya"
                     android:layout_gravity="center"
                     android:textStyle="bold"
                     android:textColor="#238101"/>
@@ -1191,7 +1114,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/listin"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1199,7 +1122,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Lisdiyaning Prabanindri S.Pd"
+                    android:text="Lisdiyaning Prabanindri, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -1240,7 +1163,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/narto"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1248,7 +1171,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Narto S.Pd"
+                    android:text="Narto, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -1264,7 +1187,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="PAI"
+                    android:text="PAI dan Muatan Lokal Bahasa Daerah"
                     android:layout_gravity="center"
                     android:textStyle="bold"
                     android:textColor="#238101"/>
@@ -1282,7 +1205,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/graduated"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1290,7 +1213,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Natalia Lilik Permatasari S.Pd"
+                    android:text="Natalia Lilik Permatasari, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -1306,7 +1229,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="NIP. 198712092011012000"
+                    android:text="NIP. 198712092011012015"
                     android:layout_gravity="center"
                     android:textStyle="bold"
                     android:textColor="#850202"/>
@@ -1331,7 +1254,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/nurkhayati"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1339,7 +1262,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nur Khayati S.Ag"
+                    android:text="Nur Khayati, S.Ag"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -1380,7 +1303,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/nurjiyanti"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1388,7 +1311,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Nurjiyanti S.Pd"
+                    android:text="Nurjiyanti, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -1429,7 +1352,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/parwoto"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1471,7 +1394,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/pungkasa"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1479,7 +1402,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Pungkasa Budi Prayitno S.Pd"
+                    android:text="Pungkasa Budi Prayitno, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -1495,7 +1418,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Penjas Orkes"
+                    android:text="Ppkn dan Penjas Orkes"
                     android:layout_gravity="center"
                     android:textStyle="bold"
                     android:textColor="#238101"/>
@@ -1513,7 +1436,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/purwidi"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1521,7 +1444,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Purwidiyati Handayani S.Pd, M.Pd"
+                    android:text="Purwidiyati Handayani, S.Pd, M.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -1562,7 +1485,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/sigit"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1570,7 +1493,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sigit Pramono S.Pd"
+                    android:text="Sigit Pramono, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -1611,7 +1534,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/graduated"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1619,7 +1542,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Siti Masruroh S.Pd.i, M.Pd"
+                    android:text="Siti Masruroh, S.Pd.I, M.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -1635,7 +1558,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="NIP. 198310162010012000"
+                    android:text="NIP. 198310162010012024"
                     android:layout_gravity="center"
                     android:textStyle="bold"
                     android:textColor="#850202"/>
@@ -1653,7 +1576,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/graduated"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1695,7 +1618,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/graduated"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1703,7 +1626,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sri Hartanti S.Pd"
+                    android:text="Sri Hartanti, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -1744,7 +1667,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/graduated"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1752,7 +1675,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sri Hartini S.Pd, M.Pd"
+                    android:text="Sri Hartini, S.Pd, M.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -1793,7 +1716,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/srihartinipkn"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1801,7 +1724,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sri Hartini S.Pd"
+                    android:text="Sri Hartini, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -1842,7 +1765,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/graduated"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1850,91 +1773,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sri Rahayu S.Pd"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="45dp"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Guru Mapel"
-                    android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:textColor="#005EFF"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="NIP. 196001211981032008"
-                    android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:textColor="#850202"/>
-            </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="175dp"
-            android:orientation="horizontal"
-            android:layout_marginBottom="25dp"
-            android:background="@drawable/latarbelakang">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Sri Rahmi Astiti S.Pd"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="45dp"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Guru Mapel"
-                    android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:textColor="#005EFF"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="NIP. 196002031981022001"
-                    android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:textColor="#850202"/>
-            </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="175dp"
-            android:orientation="horizontal"
-            android:layout_marginBottom="25dp"
-            android:background="@drawable/latarbelakang">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Sri Susilowati A.Md"
+                    android:text="Sri Susilowati, A.Md"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -1961,7 +1800,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/sriwury"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -1969,7 +1808,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sri Wuryan Hestuningsih S.Pd"
+                    android:text="Sri Wuryan Hestuningsih, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -2010,7 +1849,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/graduated"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2018,7 +1857,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sriyono S.Pd.I"
+                    android:text="Sriyono, S.Pd.I"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -2038,6 +1877,13 @@
                     android:layout_gravity="center"
                     android:textStyle="bold"
                     android:textColor="#850202"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PAI"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#238101"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -2052,7 +1898,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/graduated"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2087,7 +1933,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/sugiyanto"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2095,7 +1941,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sugiyanto S.Pd"
+                    android:text="Sugiyanto, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -2136,7 +1982,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/graduated"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2178,7 +2024,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/sukamdo"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2186,7 +2032,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sukamda S.Pd"
+                    android:text="Sukamda, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -2227,7 +2073,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/sukir"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2235,7 +2081,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sukir S.Sn"
+                    android:text="Sukir, S.Sn"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -2276,7 +2122,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/sulamta"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2318,7 +2164,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/graduated"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2360,7 +2206,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/graduated"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2368,7 +2214,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sularni S.Pd"
+                    android:text="Sularni, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -2402,7 +2248,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/sutarni"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2410,7 +2256,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sutarni S.Pd"
+                    android:text="Sutarni, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -2451,7 +2297,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/graduated"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2459,7 +2305,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sutejo S.Pd"
+                    android:text="Sutejo, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -2500,7 +2346,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/suwarso"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2508,7 +2354,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Suwarso A.Md"
+                    android:text="Suwarso"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -2535,7 +2381,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/toharini"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2543,7 +2389,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Toharini S.Pd"
+                    android:text="Toharini, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -2584,7 +2430,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/tukini"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2592,49 +2438,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Trisno Krihartono S.Pd"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="45dp"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Guru Mapel"
-                    android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:textColor="#005EFF"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="NIP. 195912271986031020"
-                    android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:textColor="#850202"/>
-            </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="175dp"
-            android:orientation="horizontal"
-            android:layout_marginBottom="25dp"
-            android:background="@drawable/latarbelakang">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Tukini S.Pd"
+                    android:text="Tukini, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -2675,7 +2479,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/graduated"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2683,7 +2487,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Umi Sholihah S.Pd"
+                    android:text="Umi Sholihah, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -2724,7 +2528,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/graduated"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2732,7 +2536,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Wahyu Kurniawati A.Md"
+                    android:text="Wahyu Kurniawati, A.Md"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -2759,7 +2563,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/graduated"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2767,7 +2571,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Wajar Yudoko S.Pd"
+                    android:text="Wajar Yudoko, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -2808,7 +2612,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/graduated"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2843,7 +2647,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/wiyono"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2851,56 +2655,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Widodo S.Pd"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="45dp"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Guru Mapel"
-                    android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:textColor="#005EFF"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="NIP. 196009181981022001"
-                    android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:textColor="#850202"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Penjas Orkes"
-                    android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:textColor="#238101"/>
-            </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="175dp"
-            android:orientation="horizontal"
-            android:layout_marginBottom="25dp"
-            android:background="@drawable/latarbelakang">
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="125dp"
-                android:layout_gravity="center"
-                android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Wiyono S.Pd"
+                    android:text="Wiyono, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -2923,7 +2678,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Fisika"
+                    android:text="IPA"
                     android:layout_gravity="center"
                     android:textStyle="bold"
                     android:textColor="#238101"/>
@@ -2941,7 +2696,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/graduated"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2949,7 +2704,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Yeni Fitrihapsari A.Md"
+                    android:text="Yeni Fitrihapsari, A.Md"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -2976,7 +2731,7 @@
                 android:layout_height="125dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="30dp"
-                android:background="@drawable/fotoku"/>
+                android:background="@drawable/graduated"/>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -2984,7 +2739,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Yulia Ariyani Dewi S.Pd"
+                    android:text="Yulia Ariyani Dewi, S.Pd"
                     android:layout_gravity="center"
                     android:layout_marginTop="45dp"
                     android:textSize="18sp"
@@ -3008,6 +2763,41 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Seni Budaya, Prakarya"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#238101"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/latarbelakang">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="125dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/graduated"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aan Romi Wawi Dananto, S.Pd"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="45dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bimbingan Konseling (BP/BK)"
                     android:layout_gravity="center"
                     android:textStyle="bold"
                     android:textColor="#238101"/>
