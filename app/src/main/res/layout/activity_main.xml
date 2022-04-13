@@ -6,12 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#5EC562"
+    android:background="#82C632"
     tools:context=".MainActivity">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -20,7 +21,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="220dp"
-        android:background="@drawable/newnormal" />
+        android:background="@drawable/utama" />
 
             <RelativeLayout
                 android:layout_width="match_parent"

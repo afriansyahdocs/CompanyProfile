@@ -1,173 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    android:fillViewport="true">
-    <RelativeLayout
+    android:orientation="vertical"
+    android:background="#C84F78"
+    tools:context=".MainActivity">
+
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginVertical="20dp"
-            android:orientation="vertical"
-            android:gravity="center">
+            android:orientation="vertical">
 
-            <LinearLayout
+            <View
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginBottom="25dp"
-                android:background="@drawable/groundback">
+                android:layout_height="220dp"
+                android:background="@drawable/newnormal" />
 
-                <ImageView
-                    android:layout_width="200dp"
-                    android:layout_height="150dp"
-                    android:layout_gravity="center"
-                    android:src="@drawable/newnormal"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:gravity="center">
+
                 <LinearLayout
+                    android:id="@+id/line1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:background="@drawable/groundback">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="PERPUSTAKAAN"
-                        android:gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:textAlignment="center"
-                        android:textColor="@color/black"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="15sp"
-                        android:paddingStart="15dp"
-                        android:paddingEnd="15dp"
-                        android:paddingBottom="10dp"
-                        android:text="@string/perpus"
-                        android:textColor="@color/black"/>
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginBottom="25dp"
-                android:background="@drawable/groundback">
-
-                <ImageView
-                    android:layout_width="200dp"
-                    android:layout_height="150dp"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:src="@drawable/newnormal"/>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:background="@drawable/groundback">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="LABORATORIUM"
-                        android:gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:textColor="@color/black" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="15sp"
-                        android:text="@string/lab"
-                        android:paddingStart="15dp"
-                        android:paddingEnd="15dp"
-                        android:paddingBottom="10dp"
-                        android:textColor="@color/black"/>
-                </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginBottom="25dp"
-                android:background="@drawable/groundback">
-
-                <ImageView
-                    android:layout_width="200dp"
-                    android:layout_height="150dp"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="10dp"
                     android:layout_marginEnd="10dp"
-                    android:src="@drawable/newnormal" />
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/background">
+                        <ImageView
+                            android:id="@+id/gbprofil"
+                            android:layout_width="155dp"
+                            android:layout_height="150dp"
+                            android:onClick="saran"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="30dp"
+                            android:src="@drawable/profil" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/background" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="Sarana"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
                 <LinearLayout
+                    android:id="@+id/line2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:background="@drawable/groundback">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="LAB KOMPUTER"
-                        android:gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:textColor="@color/black"/>
+                    android:layout_toEndOf="@id/line1"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-                    <TextView
-                        android:layout_width="match_parent"
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="15sp"
-                        android:text="@string/labkom"
-                        android:paddingStart="15dp"
-                        android:paddingEnd="15dp"
-                        android:paddingBottom="10dp"
-                        android:textColor="@color/black" />
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/background">
+
+                        <ImageView
+                            android:id="@+id/gbgurustaf"
+                            android:layout_width="155dp"
+                            android:layout_height="150dp"
+                            android:onClick="prasarana"
+                            android:paddingTop="13dp"
+                            android:paddingBottom="30dp"
+                            android:src="@drawable/gurustaf" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/background">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/background"
+                            android:gravity="center"
+                            android:text="Prasarana"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
                 </LinearLayout>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginBottom="25dp"
-                android:background="@drawable/groundback">
-
-                <ImageView
-                    android:layout_width="200dp"
-                    android:layout_height="150dp"
-                    android:layout_gravity="center"
-                    android:src="@drawable/newnormal"/>
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:background="@drawable/groundback">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="MASJID"
-                        android:gravity="center_horizontal"
-                        android:textStyle="bold"
-                        android:textColor="@color/black"/>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textSize="15sp"
-                        android:text="@string/masjid"
-                        android:paddingStart="15dp"
-                        android:paddingEnd="15dp"
-                        android:paddingBottom="10dp"
-                        android:textColor="@color/black" />
-                </LinearLayout>
-            </LinearLayout>
+            </RelativeLayout>
         </LinearLayout>
-    </RelativeLayout>
-</ScrollView>
+    </ScrollView>
+</RelativeLayout>

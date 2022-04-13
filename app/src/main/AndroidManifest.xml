@@ -27,6 +27,18 @@
         <activity
             android:name=".GuruActivity"
             android:exported="false" />
+        <activity
+            android:name=".SejarahActivity"
+            android:exported="false" />
+        <activity
+            android:name=".identitas"
+            android:exported="false" />
+        <activity
+            android:name=".visimisi"
+            android:exported="false" />
+        <activity
+            android:name=".PrasaranaActivity"
+            android:exported="false" />
         <activity android:name=".MainActivity" />
         <activity
             android:name=".MenuActivity"

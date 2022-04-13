@@ -1,171 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fillViewport="true"
-    android:background="@drawable/background">
-
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        android:background="@drawable/smp" />
-
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF" />
+        android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:gravity="center_horizontal"
-        android:textSize="25sp"
-        android:layout_gravity="center"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:text="@string/profil" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:textSize="20dp"
-        android:textColor="@color/black"
-        android:paddingStart="15dp"
-        android:paddingEnd="10dp"
-        android:paddingBottom="5dp"
-        android:textStyle="bold"
-        android:text="Sejarah Singkat SMPN 1 MAtesih" />
+            <View
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/smp" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:layout_gravity="center_horizontal"
-        android:textSize="15sp"
-        android:textColor="@color/black"
-        android:paddingStart="15dp"
-        android:paddingEnd="10dp"
-        android:paddingBottom="5dp"
-        android:text="@string/sejarah" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:gravity="center">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:layout_gravity="left"
-        android:textSize="15sp"
-        android:textColor="@color/black"
-        android:paddingStart="15dp"
-        android:paddingEnd="10dp"
-        android:paddingBottom="5dp"
-        android:text="@string/jarah" />
+                <LinearLayout
+                    android:id="@+id/line1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:layout_gravity="left"
-        android:textSize="15sp"
-        android:textColor="@color/black"
-        android:paddingStart="15dp"
-        android:paddingEnd="10dp"
-        android:paddingBottom="5dp"
-        android:text="@string/no" />
+                    <RelativeLayout
+                        android:layout_width="140dp"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/background">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:layout_gravity="left"
-        android:textSize="15sp"
-        android:textColor="@color/black"
-        android:paddingStart="15dp"
-        android:paddingEnd="10dp"
-        android:paddingBottom="5dp"
-        android:text="@string/nom" />
+                        <ImageView
+                            android:id="@+id/gbprofil"
+                            android:layout_width="155dp"
+                            android:layout_height="150dp"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="30dp"
+                            android:src="@drawable/profil" />
+                    </RelativeLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_gravity="left"
-        android:textSize="20dp"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:paddingStart="15dp"
-        android:paddingBottom="0dp"
-        android:text="Identitas Sekolah" />
+                    <RelativeLayout
+                        android:layout_width="140dp"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/background">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:layout_gravity="left"
-        android:textSize="15sp"
-        android:textColor="@color/black"
-        android:paddingStart="15dp"
-        android:paddingEnd="10dp"
-        android:paddingBottom="5dp"
-        android:text="@string/alamat" />
+                        <ImageView
+                            android:id="@+id/gbekskul"
+                            android:layout_width="155dp"
+                            android:layout_height="150dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="30dp"
+                            android:src="@drawable/fasilitas" />
+                    </RelativeLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:layout_gravity="center_horizontal"
-        android:gravity="center"
-        android:textSize="20dp"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:text="VISI" />
+                    <RelativeLayout
+                        android:layout_width="140dp"
+                        android:layout_height="120dp"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/background">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:layout_gravity="left"
-        android:textSize="15sp"
-        android:textColor="@color/black"
-        android:paddingStart="15dp"
-        android:paddingEnd="10dp"
-        android:paddingBottom="5dp"
-        android:text="@string/visi" />
+                        <ImageView
+                            android:id="@+id/gbvisi"
+                            android:layout_width="155dp"
+                            android:layout_height="150dp"
+                            android:adjustViewBounds="true"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="30dp"
+                            android:src="@drawable/visi" />
+                    </RelativeLayout>
+                </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center_horizontal"
-        android:gravity="center"
-        android:textSize="20dp"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:text="MISI" />
+                <LinearLayout
+                    android:id="@+id/line2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/line1"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:layout_gravity="left"
-        android:textSize="15sp"
-        android:textColor="@color/black"
-        android:paddingStart="15dp"
-        android:paddingEnd="10dp"
-        android:paddingBottom="5dp"
-        android:text="@string/misi" />
-</LinearLayout>
-</ScrollView>
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:onClick="sejarah"
+                        android:background="@drawable/latarbelakang">
 
+                        <TextView
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:gravity="center"
+                            android:text="SEJARAH SMPN 01 MATESIH"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
 
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:onClick="identitas"
+                        android:background="@drawable/latarbelakang">
 
+                        <TextView
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:gravity="center"
+                            android:text="IDENTITAS SEKOLAH"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:onClick="visimisi"
+                        android:background="@drawable/latarbelakang">
+
+                        <TextView
+                            android:layout_width="180dp"
+                            android:layout_height="120dp"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:text="VISI DAN MISI" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
