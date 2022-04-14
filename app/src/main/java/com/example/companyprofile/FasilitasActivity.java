@@ -14,7 +14,7 @@ public class FasilitasActivity extends AppCompatActivity {
         setContentView(R.layout.fasilitas);
     }
 
-    public void saran(View view) {
+    public void sarana(View view) {
         Intent intent = new Intent(FasilitasActivity.this, SaranaActivity.class);
         startActivity(intent);
     }

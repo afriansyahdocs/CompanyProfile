@@ -16,7 +16,8 @@ public class MainActivity extends AppCompatActivity {
     public void guruclick(View view) {
         Intent intent = new Intent(MainActivity.this, GuruActivity.class);
         startActivity(intent);
-    } public void fasilitasclick(View view) {
+    }
+    public void fasilitasclick(View view) {
         Intent intent = new Intent(MainActivity.this, FasilitasActivity.class);
         startActivity(intent);
     }
