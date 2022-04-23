@@ -631,6 +631,13 @@
                     android:layout_gravity="center"
                     android:textStyle="bold"
                     android:textColor="#005EFF"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Guru TIK"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#238101"/>
             </LinearLayout>
         </LinearLayout>
 
