@@ -20,8 +20,8 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="220dp"
-        android:background="@drawable/utama" />
+        android:layout_height="170dp"
+        android:background="@drawable/revutama" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -122,6 +122,36 @@
                             android:layout_marginTop="115dp"
                             android:gravity="center"
                             android:text="PRESTASI"
+                            android:textColor="#000000" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/background">
+
+                        <ImageView
+                            android:id="@+id/gbinfor"
+                            android:layout_width="155dp"
+                            android:layout_height="150dp"
+                            android:onClick="informasiklik"
+                            android:adjustViewBounds="true"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="30dp"
+                            android:src="@drawable/informative" />
+
+                        <TextView
+                            android:id="@+id/informasi"
+                            android:layout_width="64dp"
+                            android:layout_height="23dp"
+                            android:layout_alignLeft="@id/gbinfor"
+                            android:layout_alignTop="@id/gbinfor"
+                            android:layout_alignRight="@id/gbinfor"
+                            android:layout_alignBottom="@id/gbinfor"
+                            android:layout_marginTop="115dp"
+                            android:gravity="center"
+                            android:text="LAYANAN PUBLIK"
                             android:textColor="#000000" />
                     </RelativeLayout>
                 </LinearLayout>

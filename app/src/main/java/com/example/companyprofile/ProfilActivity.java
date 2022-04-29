@@ -27,4 +27,12 @@ public class ProfilActivity extends AppCompatActivity {
         Intent intent = new Intent(ProfilActivity.this, visimisi.class);
         startActivity(intent);
     }
+    public void programkerja(View view) {
+        Intent intent = new Intent(ProfilActivity.this, ProgramActivity.class);
+        startActivity(intent);
+    }
+    public void strukturorganisasi(View view) {
+        Intent intent = new Intent(ProfilActivity.this, StrukturActivity.class);
+        startActivity(intent);
+    }
 }

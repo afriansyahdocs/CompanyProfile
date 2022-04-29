@@ -37,4 +37,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, Prestasi.class);
         startActivity(intent);
     }
+    public void informasiklik(View view) {
+        Intent intent = new Intent(MainActivity.this, InformasiActivity.class);
+        startActivity(intent);
+    }
 }

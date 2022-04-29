@@ -34,61 +34,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:orientation="vertical">
-
-                    <RelativeLayout
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
-                        android:layout_marginBottom="20dp"
-                        android:background="@drawable/background">
-
-                        <ImageView
-                            android:id="@+id/gbprofil"
-                            android:layout_width="155dp"
-                            android:layout_height="150dp"
-                            android:paddingTop="20dp"
-                            android:paddingBottom="30dp"
-                            android:src="@drawable/profil" />
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
-                        android:layout_marginBottom="20dp"
-                        android:background="@drawable/background">
-
-                        <ImageView
-                            android:id="@+id/gbekskul"
-                            android:layout_width="155dp"
-                            android:layout_height="150dp"
-                            android:paddingTop="10dp"
-                            android:paddingBottom="30dp"
-                            android:src="@drawable/fasilitas" />
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
-                        android:layout_marginBottom="20dp"
-                        android:background="@drawable/background">
-
-                        <ImageView
-                            android:id="@+id/gbvisi"
-                            android:layout_width="155dp"
-                            android:layout_height="150dp"
-                            android:adjustViewBounds="true"
-                            android:paddingTop="10dp"
-                            android:paddingBottom="30dp"
-                            android:src="@drawable/visi" />
-                    </RelativeLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:id="@+id/line2"
-                    android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:layout_toEndOf="@id/line1"
-                    android:gravity="center"
+                    android:layout_marginEnd="15dp"
                     android:orientation="vertical">
 
                     <RelativeLayout
@@ -98,13 +44,25 @@
                         android:onClick="sejarah"
                         android:background="@drawable/background">
 
+                        <ImageView
+                            android:id="@+id/gbprofil"
+                            android:layout_width="155dp"
+                            android:layout_height="150dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="30dp"
+                            android:src="@drawable/profil" />
                         <TextView
-                            android:layout_width="180dp"
-                            android:layout_height="120dp"
+                            android:id="@+id/profil"
+                            android:layout_width="64dp"
+                            android:layout_height="23dp"
+                            android:layout_alignLeft="@id/gbprofil"
+                            android:layout_alignTop="@id/gbprofil"
+                            android:layout_alignRight="@id/gbprofil"
+                            android:layout_alignBottom="@id/gbprofil"
+                            android:layout_marginTop="115dp"
                             android:gravity="center"
-                            android:text="SEJARAH SMPN 01 MATESIH"
-                            android:textColor="@color/black"
-                            android:textStyle="bold" />
+                            android:text="Sejarah Sekolah"
+                            android:textColor="#000000" />
                     </RelativeLayout>
 
                     <RelativeLayout
@@ -114,13 +72,25 @@
                         android:onClick="identitas"
                         android:background="@drawable/background">
 
+                        <ImageView
+                            android:id="@+id/gbekskul"
+                            android:layout_width="155dp"
+                            android:layout_height="150dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="30dp"
+                            android:src="@drawable/fasilitas" />
                         <TextView
-                            android:layout_width="180dp"
-                            android:layout_height="120dp"
+                            android:id="@+id/ekskul"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:layout_alignLeft="@id/gbekskul"
+                            android:layout_alignTop="@id/gbekskul"
+                            android:layout_alignRight="@id/gbekskul"
+                            android:layout_alignBottom="@id/gbekskul"
+                            android:layout_marginTop="115dp"
                             android:gravity="center"
-                            android:text="IDENTITAS SEKOLAH"
-                            android:textColor="@color/black"
-                            android:textStyle="bold" />
+                            android:text="Identitas Sekolah"
+                            android:textColor="#000000" />
                     </RelativeLayout>
 
                     <RelativeLayout
@@ -130,13 +100,91 @@
                         android:onClick="visimisi"
                         android:background="@drawable/background">
 
+                        <ImageView
+                            android:id="@+id/gbvisi"
+                            android:layout_width="155dp"
+                            android:layout_height="150dp"
+                            android:adjustViewBounds="true"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="30dp"
+                            android:src="@drawable/hadiah" />
                         <TextView
-                            android:layout_width="180dp"
-                            android:layout_height="120dp"
+                            android:id="@+id/visimisi"
+                            android:layout_width="64dp"
+                            android:layout_height="23dp"
+                            android:layout_alignLeft="@id/gbvisi"
+                            android:layout_alignTop="@id/gbvisi"
+                            android:layout_alignRight="@id/gbvisi"
+                            android:layout_alignBottom="@id/gbvisi"
+                            android:layout_marginTop="115dp"
                             android:gravity="center"
-                            android:textColor="@color/black"
-                            android:textStyle="bold"
-                            android:text="VISI DAN MISI" />
+                            android:text="Visi dan Misi"
+                            android:textColor="#000000" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/line2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/line1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:onClick="programkerja"
+                        android:background="@drawable/background">
+
+                        <ImageView
+                            android:id="@+id/gbprofil"
+                            android:layout_width="155dp"
+                            android:layout_height="150dp"
+                            android:paddingTop="20dp"
+                            android:paddingBottom="30dp"
+                            android:src="@drawable/saranaa" />
+                        <TextView
+                            android:id="@+id/profil"
+                            android:layout_width="64dp"
+                            android:layout_height="23dp"
+                            android:layout_alignLeft="@id/gbprofil"
+                            android:layout_alignTop="@id/gbprofil"
+                            android:layout_alignRight="@id/gbprofil"
+                            android:layout_alignBottom="@id/gbprofil"
+                            android:layout_marginTop="115dp"
+                            android:gravity="center"
+                            android:text="Program Kerja"
+                            android:textColor="#000000" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:onClick="strukturorganisasi"
+                        android:background="@drawable/background">
+
+                        <ImageView
+                            android:id="@+id/gbekskul"
+                            android:layout_width="155dp"
+                            android:layout_height="150dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="30dp"
+                            android:src="@drawable/visi" />
+                        <TextView
+                            android:id="@+id/ekskul"
+                            android:layout_width="64dp"
+                            android:layout_height="64dp"
+                            android:layout_alignLeft="@id/gbekskul"
+                            android:layout_alignTop="@id/gbekskul"
+                            android:layout_alignRight="@id/gbekskul"
+                            android:layout_alignBottom="@id/gbekskul"
+                            android:layout_marginTop="115dp"
+                            android:gravity="center"
+                            android:text="Struktur Organisasi"
+                            android:textColor="#000000" />
                     </RelativeLayout>
                 </LinearLayout>
             </RelativeLayout>

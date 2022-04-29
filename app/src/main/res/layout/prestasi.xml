@@ -1,552 +1,113 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="#66DD6A"
-    android:fillViewport="true">
+    tools:context=".Prestasi">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="25dp">
+        android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingStart="10dp"
-        android:paddingEnd="10dp"
-        android:orientation="vertical"
-        android:layout_marginBottom="20dp"
-        android:background="@drawable/latarbelakang">
-
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Penyerahan Reword"
-            android:layout_gravity="center"
-            android:layout_marginTop="15dp"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            android:textColor="@color/black"/>
+            android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:layout_gravity="center"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:src="@drawable/aa"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:layout_gravity="center"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:src="@drawable/bb"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:layout_gravity="center"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:src="@drawable/cc"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:layout_gravity="center"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:src="@drawable/dd"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:layout_gravity="center"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:src="@drawable/ee"/>
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:layout_gravity="center"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp"
-            android:src="@drawable/ff"/>
-    </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:background="@drawable/pres" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:textSize="20sp"
-            android:textColor="@color/black"
-            android:paddingStart="15dp"
-            android:paddingEnd="10dp"
-            android:textStyle="bold"
-            android:text=">Prestasi" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="25dp"
+                android:gravity="center">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="vertical"
-            android:layout_marginBottom="15dp"
-            android:background="@drawable/latarbelakang">
+                <LinearLayout
+                    android:id="@+id/line1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Aenan Putri Aulia"
-                android:layout_gravity="center"
-                android:layout_marginTop="15dp"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Khofifah Kurniawati"
-                android:layout_gravity="center"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Ana Mardiana"
-                android:layout_gravity="center"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Lomba LCCI"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#005EFF"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="juara II"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#238101"/>
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/background">
+                        <ImageView
+                            android:layout_width="155dp"
+                            android:layout_height="150dp"
+                            android:onClick="reward"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="30dp"
+                            android:src="@drawable/hadiah" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/background" />
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="45dp"
+                        android:background="@drawable/background"
+                        android:gravity="center"
+                        android:text="Penyerahan Reward"
+                        android:textColor="@color/black"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/line2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/line1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/background">
+
+                        <ImageView
+                            android:layout_width="155dp"
+                            android:layout_height="150dp"
+                            android:onClick="penyerahan"
+                            android:paddingTop="13dp"
+                            android:paddingBottom="30dp"
+                            android:src="@drawable/juaraa" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/background">
+
+                        <TextView
+                            android:layout_width="150dp"
+                            android:layout_height="40dp"
+                            android:background="@drawable/background"
+                            android:gravity="center"
+                            android:text="Kejuaraan"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
         </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="vertical"
-            android:layout_marginBottom="15dp"
-            android:background="@drawable/latarbelakang">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Iin Indriyana"
-                android:layout_gravity="center"
-                android:layout_marginTop="45dp"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Lomba Khitobah Pidato"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#005EFF"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="juara II"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#238101"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="vertical"
-            android:layout_marginBottom="15dp"
-            android:background="@drawable/latarbelakang">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Kurnia Zulkarnain"
-                android:layout_gravity="center"
-                android:layout_marginTop="45dp"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Lomba Khitobah Pidato"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#005EFF"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="juara II"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#238101"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="vertical"
-            android:layout_marginBottom="15dp"
-            android:background="@drawable/latarbelakang">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Abdul Tri Saifuan"
-                android:layout_gravity="center"
-                android:layout_marginTop="45dp"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Lomba Poster"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#005EFF"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Harapan I"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#238101"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="vertical"
-            android:layout_marginBottom="15dp"
-            android:background="@drawable/latarbelakang">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Windayani Galih Safitri"
-                android:layout_gravity="center"
-                android:layout_marginTop="15dp"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Ratna Puspitasari"
-                android:layout_gravity="center"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="perlombaan KKR"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#005EFF"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="juara II"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#238101"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="vertical"
-            android:layout_marginBottom="15dp"
-            android:background="@drawable/latarbelakang">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Bagas Ari Wardana"
-                android:layout_gravity="center"
-                android:layout_marginTop="45dp"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="perlombaan Atletik"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#005EFF"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="juara I"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#238101"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="vertical"
-            android:layout_marginBottom="15dp"
-            android:background="@drawable/latarbelakang">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Rani Puji Rahayu"
-                android:layout_gravity="center"
-                android:layout_marginTop="15dp"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Firdaus Sri Handaya"
-                android:layout_gravity="center"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="perlombaan Tolak Peluru"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#005EFF"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="juara I"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#238101"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="vertical"
-            android:layout_marginBottom="15dp"
-            android:background="@drawable/latarbelakang">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Rani Puji Rahayu"
-                android:layout_gravity="center"
-                android:layout_marginTop="15dp"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Firdaus Sri Handaya"
-                android:layout_gravity="center"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="perlombaan Lempar Cakram"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#005EFF"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="juara I"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#238101"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="vertical"
-            android:layout_marginBottom="15dp"
-            android:background="@drawable/latarbelakang">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Hawa L Nabila F"
-                android:layout_gravity="center"
-                android:layout_marginTop="15dp"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Bagas Ari Pradana"
-                android:layout_gravity="center"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="perlombaan Lompat Jauh"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#005EFF"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="juara I"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#238101"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="vertical"
-            android:layout_marginBottom="15dp"
-            android:background="@drawable/latarbelakang">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Bagas Ari Pradana"
-                android:layout_gravity="center"
-                android:layout_marginTop="45dp"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="perlombaan Lompat Tinggi"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#005EFF"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="juara I"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#238101"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="vertical"
-            android:layout_marginBottom="15dp"
-            android:background="@drawable/latarbelakang">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Yohanes Arya R"
-                android:layout_gravity="center"
-                android:layout_marginTop="45dp"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="perlombaan Lari 800 m"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#005EFF"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="juara I"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#238101"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="vertical"
-            android:layout_marginBottom="15dp"
-            android:background="@drawable/latarbelakang">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Mita Dwi Lestari"
-                android:layout_gravity="center"
-                android:layout_marginTop="45dp"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="perlombaan Atletik Lari 100 m Putri"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#005EFF"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="juara I"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#238101"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:orientation="vertical"
-            android:layout_marginBottom="15dp"
-            android:background="@drawable/latarbelakang">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Arif Tri Budianto"
-                android:layout_gravity="center"
-                android:layout_marginTop="45dp"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="perlombaan Atletik Lompat Jauh Putra"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#005EFF"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="juara I"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textColor="#238101"/>
-        </LinearLayout>
-    </LinearLayout>
-</ScrollView>
+    </ScrollView>
+</RelativeLayout>

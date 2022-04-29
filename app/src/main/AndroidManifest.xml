@@ -42,6 +42,21 @@
         <activity
             android:name=".PrasaranaActivity"
             android:exported="false" />
+        <activity
+            android:name=".RewardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JuaraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProgramActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StrukturActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InformasiActivity"
+            android:exported="false" />
         <activity android:name=".MainActivity" />
         <activity
             android:name=".MenuActivity"

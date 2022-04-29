@@ -14,24 +14,28 @@
             android:layout_height="wrap_content"
             android:layout_marginVertical="20dp"
             android:orientation="vertical"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
             android:gravity="center">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:paddingTop="5dp"
                 android:layout_marginBottom="25dp"
-                android:background="@drawable/groundback">
+                android:background="@color/white">
 
                 <ImageView
-                    android:layout_width="140dp"
-                    android:layout_height="150dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/pramuka"/>
+                    android:src="@drawable/muka"/>
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
+                    android:layout_marginTop="5dp"
                     android:background="@drawable/groundback">
                     <TextView
                         android:layout_width="match_parent"
@@ -58,21 +62,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:paddingTop="5dp"
                 android:layout_marginBottom="25dp"
-                android:background="@drawable/groundback">
+                android:background="@color/white">
 
                 <ImageView
-                    android:layout_width="200dp"
+                    android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:layout_gravity="center"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="10dp"
-                    android:src="@drawable/ekskul"/>
+                    android:src="@drawable/kom"/>
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:background="@drawable/groundback">
+                    android:background="@drawable/groundback"
+                    android:layout_marginTop="5dp">
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -97,20 +101,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:paddingTop="5dp"
                 android:layout_marginBottom="25dp"
-                android:background="@drawable/groundback">
+                android:background="@color/white">
 
                 <ImageView
-                    android:layout_width="200dp"
-                    android:layout_height="150dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
                     android:layout_gravity="center"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginEnd="10dp"
-                    android:src="@drawable/ekskul" />
+                    android:src="@drawable/tilawah" />
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
+                    android:layout_marginTop="5dp"
                     android:background="@drawable/groundback">
                     <TextView
                         android:layout_width="match_parent"
@@ -137,17 +141,19 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginBottom="25dp"
-                android:background="@drawable/groundback">
+                android:layout_marginTop="5dp"
+                android:background="@color/white">
 
                 <ImageView
-                    android:layout_width="110dp"
-                    android:layout_height="150dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="145dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/pmr"/>
+                    android:src="@drawable/peemr"/>
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
+                    android:layout_marginTop="5dp"
                     android:background="@drawable/groundback">
                     <TextView
                         android:layout_width="match_parent"
@@ -173,18 +179,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:paddingTop="5dp"
                 android:layout_marginBottom="25dp"
-                android:background="@drawable/groundback">
+                android:background="@color/white">
 
                 <ImageView
-                    android:layout_width="200dp"
-                    android:layout_height="150dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/ekskul"/>
+                    android:src="@drawable/tapaksuci"/>
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
+                    android:layout_marginTop="5dp"
                     android:background="@drawable/groundback">
                     <TextView
                         android:layout_width="match_parent"
@@ -210,18 +218,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:paddingTop="5dp"
                 android:layout_marginBottom="25dp"
-                android:background="@drawable/groundback">
+                android:background="@color/white">
 
                 <ImageView
-                    android:layout_width="200dp"
+                    android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/ekskul"/>
+                    android:src="@drawable/witan"/>
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
+                    android:layout_marginTop="5dp"
                     android:background="@drawable/groundback">
                     <TextView
                         android:layout_width="match_parent"
@@ -248,17 +258,18 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginBottom="25dp"
-                android:background="@drawable/groundback">
+                android:background="@color/white">
 
                 <ImageView
-                    android:layout_width="160dp"
-                    android:layout_height="130dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/ekskul"/>
+                    android:src="@drawable/poli"/>
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
+                    android:layout_marginTop="5dp"
                     android:background="@drawable/groundback">
                     <TextView
                         android:layout_width="match_parent"
@@ -284,18 +295,21 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:paddingTop="5dp"
                 android:layout_marginBottom="25dp"
-                android:background="@drawable/groundback">
+                android:background="@color/white">
 
                 <ImageView
-                    android:layout_width="200dp"
+                    android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/ekskul"/>
+                    android:src="@drawable/sal"/>
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
+                    android:layout_marginTop="5dp"
                     android:background="@drawable/groundback">
                     <TextView
                         android:layout_width="match_parent"
@@ -321,18 +335,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:paddingTop="5dp"
                 android:layout_marginBottom="25dp"
-                android:background="@drawable/groundback">
+                android:background="@color/white">
 
                 <ImageView
-                    android:layout_width="200dp"
+                    android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/ekskul"/>
+                    android:src="@drawable/til"/>
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
+                    android:layout_marginTop="5dp"
                     android:background="@drawable/groundback">
                     <TextView
                         android:layout_width="match_parent"
@@ -358,19 +374,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:paddingTop="5dp"
                 android:layout_marginBottom="25dp"
-                android:background="@drawable/groundback">
+                android:background="@color/white">
 
                 <ImageView
-                    android:layout_width="200dp"
+                    android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/ekskul"/>
+                    android:src="@drawable/irat"/>
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
+                    android:layout_marginTop="5dp"
                     android:background="@drawable/groundback">
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"

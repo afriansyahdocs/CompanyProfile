@@ -6,20 +6,25 @@
         <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/drawable/background.xml" value="0.1365" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/drawable/groundback.xml" value="0.125" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/drawable/latarbelakang.xml" value="0.1465" />
-        <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/activity_menu.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/ekskul.xml" value="0.241399416909621" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/fasilitas.xml" value="0.25" />
-        <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/gallery.xml" value="0.15494011976047903" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/gallery.xml" value="0.12020905923344948" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/gurudanstaf.xml" value="0.1" />
-        <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/identitas.xml" value="0.215625" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/identitas.xml" value="0.25" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/informasi.xml" value="0.25" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/kejuaraan.xml" value="0.19528301886792454" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/kepala.xml" value="0.215625" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/osis.xml" value="0.215625" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/penyerahan.xml" value="0.215625" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/prasarana.xml" value="0.25" />
-        <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/prestasi.xml" value="0.16267190569744597" />
-        <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/profil.xml" value="0.25" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/prestasi.xml" value="0.2" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/profil.xml" value="0.2" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/program.xml" value="0.215625" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/sarana.xml" value="0.25" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/sejarah.xml" value="0.215625" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/struktur.xml" value="0.215625" />
         <entry key="..\:/Users/acer/AndroidStudioProjects/CompanyProfile/app/src/main/res/layout/visimisi.xml" value="0.215625" />
       </map>
     </option>

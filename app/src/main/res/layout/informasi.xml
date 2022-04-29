@@ -10,68 +10,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/latarbelakang"
-            android:layout_marginTop="15dp"
-            android:layout_marginStart="10dp"
-            android:textSize="20sp"
-            android:textColor="@color/black"
-            android:paddingStart="15dp"
-            android:paddingEnd="15dp"
-            android:paddingBottom="5dp"
-            android:textStyle="bold"
-            android:text="@string/sejarahsingkat" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/background"
-            android:layout_marginTop="10dp"
-            android:layout_gravity="center_horizontal"
-            android:textSize="15sp"
-            android:textColor="@color/black"
-            android:paddingStart="15dp"
-            android:paddingEnd="10dp"
-            android:paddingBottom="5dp"
-            android:text="@string/sejarah" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/background"
-            android:layout_marginTop="2dp"
-            android:layout_gravity="center_horizontal"
-            android:textSize="15sp"
-            android:textColor="@color/black"
-            android:paddingStart="15dp"
-            android:paddingEnd="10dp"
-            android:paddingBottom="5dp"
-            android:text="@string/jarah" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/background"
-            android:layout_marginTop="2dp"
-            android:layout_gravity="center_horizontal"
-            android:textSize="15sp"
-            android:textColor="@color/black"
-            android:paddingStart="15dp"
-            android:paddingEnd="10dp"
-            android:paddingBottom="5dp"
-            android:text="@string/no" />
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/background"
-            android:layout_marginTop="2dp"
-            android:layout_gravity="center_horizontal"
-            android:textSize="15sp"
-            android:textColor="@color/black"
-            android:paddingStart="15dp"
-            android:paddingEnd="10dp"
-            android:text="@string/nom" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -85,7 +23,8 @@
             android:paddingEnd="15dp"
             android:paddingBottom="5dp"
             android:textStyle="bold"
-            android:text="@string/jarahpengembangan" />
+            android:text="Layanan Informasi" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -97,66 +36,90 @@
             android:paddingStart="15dp"
             android:paddingEnd="10dp"
             android:paddingBottom="5dp"
-            android:text="@string/kembang" />
+            android:autoLink="web"
+            android:text="@string/web" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/latarbelakang"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:paddingBottom="5dp"
+            android:textStyle="bold"
+            android:text="Layanan dan Aduan" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/background"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="10dp"
             android:layout_gravity="center_horizontal"
             android:textSize="15sp"
             android:textColor="@color/black"
             android:paddingStart="15dp"
             android:paddingEnd="10dp"
             android:paddingBottom="5dp"
-            android:text="@string/perkembang" />
+            android:text="@string/layanan" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/background"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="10dp"
             android:layout_gravity="center_horizontal"
             android:textSize="15sp"
             android:textColor="@color/black"
             android:paddingStart="15dp"
             android:paddingEnd="10dp"
             android:paddingBottom="5dp"
-            android:text="@string/perkembangan" />
+            android:text="@string/layan" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/background"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="10dp"
             android:layout_gravity="center_horizontal"
             android:textSize="15sp"
             android:textColor="@color/black"
             android:paddingStart="15dp"
             android:paddingEnd="10dp"
             android:paddingBottom="5dp"
-            android:text="@string/jarah" />
+            android:textStyle="bold"
+            android:autoLink="web"
+            android:text="@string/puas" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/background"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="10dp"
             android:layout_gravity="center_horizontal"
             android:textSize="15sp"
             android:textColor="@color/black"
             android:paddingStart="15dp"
             android:paddingEnd="10dp"
             android:paddingBottom="5dp"
-            android:text="@string/no" />
+            android:text="@string/survey" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/background"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="10dp"
             android:layout_gravity="center_horizontal"
             android:textSize="15sp"
             android:textColor="@color/black"
             android:paddingStart="15dp"
             android:paddingEnd="10dp"
             android:paddingBottom="5dp"
-            android:text="@string/nom" />
+            android:textStyle="bold"
+            android:autoLink="web"
+            android:text="@string/kritik" />
     </LinearLayout>
 </ScrollView>
